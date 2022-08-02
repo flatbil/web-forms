@@ -24,6 +24,40 @@
         <label>How many pets in your home?
             <input type="number" name="petCount">
         </label>
+        <label>Why do you want to adopt a new pet?
+            <textarea name="applicationReason" cols="50" rows="4">I'm a bad person.</textarea>
+        </label>
+
+        <fieldset>
+            <legend>What type of animals?</legend>  
+            <label>Dogs
+                <input type="checkbox" name="type" value="dogs">
+            </label>
+            <label>Cats
+                <input type="checkbox" name="type" value="cats">
+            </label>
+            <label>Hamsters
+                <input type="checkbox" name="type" value="hamsters">
+            </label>
+        </fieldset>
+        <fieldset>
+            <legend>Are you interested in special needs?</legend>
+            <label>Yes
+                <input type="radio" name="special" value="yes">
+            </label>
+            <label>No
+                <input type="radio" name="special" value="no">
+            </label>
+        </fieldset>
+        <label>
+            <select name="hours">
+                <option value="">Please Select</option>
+                <option value="few">less than 10</option>
+                <option value="some">10</option>
+                <option value="many">more than 10</option>
+            </select>
+        </label>
+ 
         <label>Create a password:
             <input type="password" name="userPassword">
         </label>
